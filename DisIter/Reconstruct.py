@@ -1,7 +1,7 @@
 import time
 import numpy as np
 from DisIter.Fast import Fast
-from DisIter.FastLoop_multi import FastLoop_multi
+from FastLoop_multi import FastLoop_multi
 
 class Reconstruct(Fast):
     def __init__(self, BoxSize = 1000, NMesh = 512, *args, **kwargs):
