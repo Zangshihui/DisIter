@@ -1,7 +1,7 @@
 import time
 import numpy as np
 from DisIter.Base import Base
-from FastLoop_multi import FastLoop_multi
+import FastLoop_multi
 
 class Fast(Base):
     def __init__(self, BoxSize = 1000, NMesh = 512, *args, **kwargs):
